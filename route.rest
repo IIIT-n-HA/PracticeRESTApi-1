@@ -1,0 +1,15 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/653a07ce4fb4c76e0f75e644
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name" : "Person",
+    "subscriberToChannel" : "Subscription"
+}
